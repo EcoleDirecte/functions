@@ -54,7 +54,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/GestionDates.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/GestionComm.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/GestionLogs.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/global_ED.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/global_CM.php');
+// require_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/global_CM.php');
 
 
 /* function curlUse ($cuUrl, $cuType='GET', $cuCookieReset='', ) {
