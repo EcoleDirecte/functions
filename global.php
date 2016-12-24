@@ -49,7 +49,7 @@ DEFINE('DATE_Y', date('Y'));
 DEFINE('DATE_TODAY', date('Y-m-d'));
 
 require_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/global_variables.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/analyticstracking.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/analyticstracking.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/GestionDates.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/GestionComm.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/../inc/GestionLogs.php');
